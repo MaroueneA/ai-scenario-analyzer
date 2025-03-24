@@ -1,0 +1,8 @@
+# Java and Spring Boot
+/backend/target/
+*.iml
+.idea/
+
+# Node and React
+/frontend/node_modules/
+/frontend/build/
