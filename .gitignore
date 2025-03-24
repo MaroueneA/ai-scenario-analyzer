@@ -1,8 +1,53 @@
-# Java and Spring Boot
-/backend/target/
-*.iml
-.idea/
+# ===============================
+# General OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
 
-# Node and React
+# ===============================
+# IDE and Editor Files
+# ===============================
+# VS Code
+.vscode/
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+# Eclipse
+.project
+.classpath
+.settings/
+
+# ===============================
+# Maven / Java Build Artifacts
+# ===============================
+/backend/target/
+/backend/*.jar
+/backend/*.war
+
+# ===============================
+# Node / React Build Artifacts
+# ===============================
 /frontend/node_modules/
 /frontend/build/
+/frontend/.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Environment Files
+# ===============================
+# Uncomment if you use environment files in frontend (e.g., for API keys)
+//frontend/.env
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# Miscellaneous
+# ===============================
+/backend/.mvn/wrapper/maven-wrapper.jar
